@@ -1,0 +1,208 @@
+:root {
+    --color-xr1obJdQ: #ebe9ea;
+    --color-6CAogdrJ: #f9f9f9;
+    --color-SidoJ7rO: #181818;
+    --color-Lo5rrdJe: #181818;
+    --color-rdAJ3of0: #6610f2;
+    --color-TJofFdr9: #f3efef;
+    --color-9dAmJr4o: #f6f6f6;
+    --color-Yq3PJrod: #8792a2;
+    --color-dJa3orZD: #3c4257;
+    --color-roEdJr3t: #ffffff;
+    --font-dbon9JZr: 600 25px "Montserrat", Arial, Helvetica, sans-serif;
+    --font-bNor8iJd: 500 18px "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+.jardan_menu ul li ul li a {
+  transition: all 0.5s ease;
+
+  display: flex;
+  align-items: center;
+  justify-self: start;
+}
+
+/* .jardan_menu ul li {
+    list-style: none;
+    margin: 0 auto;
+    display: inline-block;
+    position: relative;
+} */
+
+.jardan_menu a {
+    color: var(--color-dJa3orZD);
+    text-decoration: none;
+
+    font-weight: 500;
+}
+
+._air-drop_links {
+    font-size: 20px;
+
+    min-width: max-content;
+    display: grid;
+    justify-content: center;
+    align-items: start;
+
+    padding-left: 15px;
+}
+
+._air-drop_links span {
+    margin-right: 15px;
+}
+
+.jardan_menu a:hover {
+    color: var(--color-rdAJ3of0);
+}
+
+/* .jardan_menu ul li ul {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    padding-left: 0;
+    left: 0;
+    display: none;
+    background: var(--color-TJofFdr9);
+} */
+
+.jardan_menu ul li:hover > ul,
+.jardan_menu ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+  min-width: 250px;
+  text-align: left;
+  padding-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  z-index: 200;
+
+  margin-top: 15px;
+}
+
+.jardan_menu ul li ul li {
+    clear: both;
+    width: -webkit-fill-available;
+    text-align: left;
+    margin-bottom: 20px;
+    border-style: none;
+}
+
+.jardan_menu ul li ul li a:hover {
+    padding-left: 10px;
+    border-left: 2px solid var(--color-rdAJ3of0);
+    transition: all 0.3s ease;
+}
+
+.icon-shopping-cart {
+    position: relative;
+}
+
+._pedidos-i {
+    position: absolute;
+    top: -13px;
+    right: -10px;
+
+    background-color: var(--color-dJa3orZD);
+    
+    clip-path: circle();
+    border-radius: 50%;
+
+    z-index: 99;
+}
+
+._pedidos-i p {
+    font-size: 12px;
+    color: var(--color-6CAogdrJ);
+    padding: 0.5rem;
+
+    visibility: inherit;
+}
+
+#triangulo-para-cima {
+    width: 0; 
+    height: 0; 
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 12px solid var(--color-TJofFdr9);
+
+    position: absolute;
+    top: -12px;
+    left: 30px;
+}
+
+._air-drop {
+    padding: 5px 30px;
+}
+
+/* Air Bag */
+
+.__air-bag, .__air-user, .__air-package {
+    list-style: none;
+    margin: 0 auto;
+    display: inline-block;
+    position: relative;
+}
+
+._bag-air, ._user-air, ._package-air {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    padding-left: 0;
+    display: none;
+    background: var(--color-TJofFdr9);
+
+    padding: 20px 10px 0 10px;
+}
+
+
+.__air-bag:hover, .__air-user:hover, .__air-package:hover {
+    color: var(--color-rdAJ3of0)
+}
+
+._bag-air ul li:hover > ul,
+._bag-air ul li ul:hover,
+._user-air ul li:hover > ul,
+._user-air ul li ul:hover,
+._package-air ul li:hover > ul,
+._package-air ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+  min-width: 250px;
+  text-align: left;
+  padding-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  z-index: 200;
+
+  margin-top: 15px;
+}
+
+._bag-air {
+    left: -26px;
+}
+
+._user-air {
+    left: -30px;
+    right: 0;
+}
+
+._package-air {
+    left: 0;
+}
+
+/* Bag */
+
+._bag-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-xr1obJdQ);
+    width: 85px;
+    height: 85px;
+    border-radius: 5px;
+}
+
+.jardan_menu { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

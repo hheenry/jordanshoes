@@ -1,0 +1,37 @@
+:root {
+    --color-xr1obJdQ: #EBE9EA;
+    --color-6CAogdrJ: #F9F9F9;
+    --color-SidoJ7rO: #181818;
+    --color-Lo5rrdJe: #181818;
+    --color-rdAJ3of0: #6610F2;
+    --color-TJofFdr9: #f3efef;
+    --color-9dAmJr4o: #F6F6F6;
+    --color-Yq3PJrod: #8792A2;
+    --color-dJa3orZD: #3C4257;
+    --color-roEdJr3t: #FFFFFF;
+    --font-dbon9JZr: 600 25px 'Montserrat', Arial, Helvetica, sans-serif;
+    --font-bNor8iJd: 500 18px 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--color-6CAogdrJ);
+    color: var(--color-dJa3orZD);
+
+    font: var(--font-bNor8iJd);
+}
+
+::selection {
+    background: var(--color-Yq3PJrod);
+    color: var(--color-9dAmJr4o);
+}
+
+header, footer, img, svg, i {
+    user-select: none;
+}
